@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0971E75-F907-7A81-5177-1C97C89B613A" containerWithKeyObject="F3A6CED1-7D22-DBAE-91A0-96B7C303ED4D" localFKIndex="783B3AC8-2601-CE41-D4AD-4F050709FBCF" name="Trener_Korisnik_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>B31BC220-C892-8186-DA1F-6111A2D76277</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<referredTableLongName>Korisnik</referredTableLongName>
+<arc>72CD3C7F-19F5-3B51-4B48-8316EF9497A5</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>70D1930E-D3ED-49E4-CCAF-0CDF38C5BADC</referredTableID>
+<keyObject>095FFE1A-30FC-4DC0-8876-45C8D200425C</keyObject>
+<referredKeyID>095FFE1A-30FC-4DC0-8876-45C8D200425C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Trener</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

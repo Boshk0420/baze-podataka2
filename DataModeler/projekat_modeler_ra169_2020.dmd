@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="projekat_modeler_ra169_2020" id="B61BB8D7-7A01-5A8B-5125-1F65E388C714" version="3.5">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 11:52:17 UTC</createdTime>
+<ownerDesignName>proba</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B61BB8D7-7A01-5A8B-5125-1F65E388C714</designId>
+</OSDM_Design>

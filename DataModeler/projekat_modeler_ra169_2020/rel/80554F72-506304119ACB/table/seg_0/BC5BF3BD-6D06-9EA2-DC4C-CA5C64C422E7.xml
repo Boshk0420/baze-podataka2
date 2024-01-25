@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC5BF3BD-6D06-9EA2-DC4C-CA5C64C422E7" name="prijava">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>952BFA84-56A9-8415-48A5-38F7FD25D6C4</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Takmicar_IdK" id="AF7993AE-3C07-1DDF-12E2-BB155684BB04">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>0A1A33A8-3858-642F-25A4-E2A013F929D1</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58898512-7669-D054-3551-12AAF8BD8CCF" referredColumn="4E96AC89-EFB1-B177-25B4-BBA84A0B3DCB"/>
+</associations>
+</Column>
+<Column name="Kategorija_IdKat" id="5418D8C1-14D0-4686-FC30-E2DAC48A2DBC">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>6D7F2A79-9871-0FE6-A3BF-4A8A2785FBD7</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F7325B4-4C88-A33D-DDAD-7E2522DD58FC" referredColumn="FDBC1F87-E98E-B77E-CA2C-9E3636B90D78"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="517D6F53-55B7-6C94-A361-84BD6AA7ECB8" name="prijava_PK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>8AFD3F09-8182-644E-EF6C-3BFE0B343B79</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF7993AE-3C07-1DDF-12E2-BB155684BB04"/>
+<colUsage columnID="5418D8C1-14D0-4686-FC30-E2DAC48A2DBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6ABC959-E639-3A97-D617-0BB324DAFA89" name="prijava_Kategorija_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>0289CC36-AF38-CD58-8F6A-221B74428B38</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5418D8C1-14D0-4686-FC30-E2DAC48A2DBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="459C3087-EF36-C2E4-4019-10927FDEEA2C" name="prijava_Takmicar_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>070F53D5-3553-E51B-33D0-C6A69A757D95</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF7993AE-3C07-1DDF-12E2-BB155684BB04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

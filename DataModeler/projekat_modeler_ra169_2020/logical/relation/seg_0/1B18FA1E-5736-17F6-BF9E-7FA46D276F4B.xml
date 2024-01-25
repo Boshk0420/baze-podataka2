@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="organizuje" directorySegmentName="seg_0" id="1B18FA1E-5736-17F6-BF9E-7FA46D276F4B">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 13:40:28 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<sourcePk>01ACDC47-F526-1669-F5DC-285A929E2AC8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2837FBB2-2223-3652-B925-A3D71EDEE80E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>638BCE0B-E85C-D0EC-B884-07DFB9AD30ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

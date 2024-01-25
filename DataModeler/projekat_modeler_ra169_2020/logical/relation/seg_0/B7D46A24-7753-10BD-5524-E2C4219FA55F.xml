@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mec_je_na" directorySegmentName="seg_0" id="B7D46A24-7753-10BD-5524-E2C4219FA55F">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:11:39 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<sourcePk>A53C2960-704E-DF54-EF9E-FB9D951A6622</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>402965C5-539F-B759-9D09-F262B111F938</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B50F3051-C00D-1E63-CC07-74755D9226C6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

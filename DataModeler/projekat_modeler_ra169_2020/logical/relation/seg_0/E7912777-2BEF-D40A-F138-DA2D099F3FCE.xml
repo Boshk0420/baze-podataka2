@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prijava_je_na" directorySegmentName="seg_0" id="E7912777-2BEF-D40A-F138-DA2D099F3FCE">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:12:21 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<sourcePk>8AFD3F09-8182-644E-EF6C-3BFE0B343B79</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>952BFA84-56A9-8415-48A5-38F7FD25D6C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B50F3051-C00D-1E63-CC07-74755D9226C6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

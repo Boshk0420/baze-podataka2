@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0B56336-2F34-D021-DED7-D0236C437A29" name="sudi_na">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sudija_IdK" id="F442C549-F18B-200D-C6B4-4639438F0CE9">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB24012A-3FD1-CF23-2F0F-9A216128CBBC" referredColumn="BE038A76-6750-B6C5-9D84-7ED8688840B9"/>
+</associations>
+</Column>
+<Column name="Takmicenje_IdTak" id="C651EBC2-1750-8B0E-2F79-77CC4D17ED3F">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E8EE586-9ED9-F170-3F1D-45D4ED9FBF05" referredColumn="0C60B642-F9EE-F481-56C2-C7CD19563342"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C831DE54-CE2F-6BA0-B4EE-BCD15A055648" name="sudi_na_PK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F442C549-F18B-200D-C6B4-4639438F0CE9"/>
+<colUsage columnID="C651EBC2-1750-8B0E-2F79-77CC4D17ED3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70BD7650-EF67-238E-776C-BF440D3CB57F" name="sudi_na_Sudija_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>B091370C-C246-F996-BBC3-4C8E31BE3139</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F442C549-F18B-200D-C6B4-4639438F0CE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8ECD9C20-7995-FFCA-F216-F46DEAE203FF" name="sudi_na_Takmicenje_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>B091370C-C246-F996-BBC3-4C8E31BE3139</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C651EBC2-1750-8B0E-2F79-77CC4D17ED3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

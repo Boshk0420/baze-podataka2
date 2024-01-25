@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="zalba" directorySegmentName="seg_0" id="3B742D49-C6AC-B953-F8AB-617748E6E7F6">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 13:36:32 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7D53F84F-6EC5-4806-5AA8-802020F20FB8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7D53F84F-6EC5-4806-5AA8-802020F20FB8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

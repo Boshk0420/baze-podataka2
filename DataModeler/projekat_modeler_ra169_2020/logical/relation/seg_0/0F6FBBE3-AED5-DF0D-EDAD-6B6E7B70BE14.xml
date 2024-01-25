@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="je trener" directorySegmentName="seg_0" id="0F6FBBE3-AED5-DF0D-EDAD-6B6E7B70BE14">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 13:34:02 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<sourcePk>01ACDC47-F526-1669-F5DC-285A929E2AC8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69C0724B-8E05-3876-3CF5-DF213D4E8CB6</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>811E65A6-094C-6ADD-B192-949A4B5E3D77</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

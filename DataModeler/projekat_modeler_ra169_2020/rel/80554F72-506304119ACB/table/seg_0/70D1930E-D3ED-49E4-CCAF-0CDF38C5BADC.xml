@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70D1930E-D3ED-49E4-CCAF-0CDF38C5BADC" name="Korisnik">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>A6E6FFAD-90C6-AC9B-B433-7CE10B8AEDFD</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdK" id="2FE25488-ECFF-D5F4-0562-B4C837D6329C">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>50761CC9-0DFF-905E-42A7-8A7D38150C5B</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ImeK" id="1DFF3C3C-4905-CBA1-8C3F-3D316782F314">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>C5A2867C-C65B-80C8-4C5B-7386F72C4E81</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazK" id="05A57E5C-AE19-9140-FA46-586CDE07F89F">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>BE7A5216-9D86-3B12-E843-AFCF3BC3571D</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SifrK" id="DC39B2DE-3EC8-6F53-1A9F-F974B35C84C3">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>62B7F6D0-D3D6-7E92-652D-279494CA6CF5</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BrTelK" id="642DC36B-635A-46E3-573E-30EB11E5DD12">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>4ADEA6D1-F5CA-21EC-2B89-1EF3FA3877C7</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMail" id="CF441F42-FA46-904E-48AC-089D1B21E702">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>87B68CB7-8D29-FED9-29E9-E35E1F72D0A5</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipK" id="59FDF7A4-0AA1-C432-C1EE-3C58FD3E77F8">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>357E331C-19FD-9946-773E-A75E40AEE813</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<constraintName>CH_INH_Korisnik</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<domain>6A919827-799E-B649-2DDB-26F22874BC61</domain>
+<listOfValues>
+<valueDef value="Organizator" description="entity Organizator"/>
+<valueDef value="Sudija" description="entity Sudija"/>
+<valueDef value="Takmicar" description="entity Takmicar"/>
+<valueDef value="Trener" description="entity Trener"/>
+</listOfValues>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="095FFE1A-30FC-4DC0-8876-45C8D200425C" name="Korisnik_PK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>01ACDC47-F526-1669-F5DC-285A929E2AC8</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FE25488-ECFF-D5F4-0562-B4C837D6329C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

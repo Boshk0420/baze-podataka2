@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3A6CED1-7D22-DBAE-91A0-96B7C303ED4D" name="Trener">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>69C0724B-8E05-3876-3CF5-DF213D4E8CB6</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdK" id="E140A41D-AC61-05C3-6EEB-88668DA838A3">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>50761CC9-0DFF-905E-42A7-8A7D38150C5B</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0971E75-F907-7A81-5177-1C97C89B613A" referredColumn="2FE25488-ECFF-D5F4-0562-B4C837D6329C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB8FCF1B-4EBC-F2AF-DF47-8111379620E4" name="Trener_PK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>01ACDC47-F526-1669-F5DC-285A929E2AC8</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E140A41D-AC61-05C3-6EEB-88668DA838A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="783B3AC8-2601-CE41-D4AD-4F050709FBCF" name="Trener_Korisnik_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>B31BC220-C892-8186-DA1F-6111A2D76277</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E140A41D-AC61-05C3-6EEB-88668DA838A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

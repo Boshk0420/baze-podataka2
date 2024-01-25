@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8966C61-6420-B2CC-8829-A9BF6D0E7128" name="Organizator">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>2837FBB2-2223-3652-B925-A3D71EDEE80E</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdK" id="3DA978A6-0658-F00B-D13D-03882D7D42EA">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>50761CC9-0DFF-905E-42A7-8A7D38150C5B</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="393FF234-90C4-1814-F71C-784462E0A3BE" referredColumn="2FE25488-ECFF-D5F4-0562-B4C837D6329C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FAF719D-CCFB-ED52-D845-721E55E61532" name="Organizator_PK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>01ACDC47-F526-1669-F5DC-285A929E2AC8</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DA978A6-0658-F00B-D13D-03882D7D42EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E3FD6BA-0CFE-8C5A-CB43-A368F44FA8BA" name="Organizator_Korisnik_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>3B2D384A-013B-0BFC-0F79-E0B7737C8004</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DA978A6-0658-F00B-D13D-03882D7D42EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

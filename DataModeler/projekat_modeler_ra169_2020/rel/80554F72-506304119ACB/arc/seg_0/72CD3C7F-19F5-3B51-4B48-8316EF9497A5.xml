@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="72CD3C7F-19F5-3B51-4B48-8316EF9497A5" name="FKArc_1">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<mandatory>true</mandatory>
+<reverseArc>true</reverseArc>
+<table>70D1930E-D3ED-49E4-CCAF-0CDF38C5BADC</table>
+<discriminatorColumn>59FDF7A4-0AA1-C432-C1EE-3C58FD3E77F8</discriminatorColumn>
+<fkeys>
+<fkeyID>9AB0D163-116F-3626-9E99-418ED0E1CE4A</fkeyID>
+<fkeyID>393FF234-90C4-1814-F71C-784462E0A3BE</fkeyID>
+<fkeyID>B0971E75-F907-7A81-5177-1C97C89B613A</fkeyID>
+<fkeyID>BD979D01-E99B-12E9-4567-C01E8BC010DF</fkeyID>
+</fkeys>
+</FKArc>

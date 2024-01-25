@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F30B443C-986B-3CF1-0A4A-3932A4AC054E" name="zalba">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Takmicar_IdK" id="794E67BC-D5C7-DF66-7A80-32C504B6275E">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8926B2AB-06B1-097F-95BE-39BCAA1C2302" referredColumn="4E96AC89-EFB1-B177-25B4-BBA84A0B3DCB"/>
+</associations>
+</Column>
+<Column name="Takmicar_IdK1" id="94C52943-E1F1-4038-2CE5-8BAA65C523C5">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0B4565B-882C-99EA-4EFE-32E47CBD0B2A" referredColumn="4E96AC89-EFB1-B177-25B4-BBA84A0B3DCB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B103DC7-7FE3-5CF3-8B65-2C8A61A77C6F" name="zalba_PK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="794E67BC-D5C7-DF66-7A80-32C504B6275E"/>
+<colUsage columnID="94C52943-E1F1-4038-2CE5-8BAA65C523C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="882EB23D-60FC-23F8-BE2C-1382891B2BB7" name="zalba_Takmicar_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>3B742D49-C6AC-B953-F8AB-617748E6E7F6</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="794E67BC-D5C7-DF66-7A80-32C504B6275E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FD14FDA-721F-BA5B-BB81-53A161D4EEBD" name="zalba_Takmicar_FKv1">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>3B742D49-C6AC-B953-F8AB-617748E6E7F6</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94C52943-E1F1-4038-2CE5-8BAA65C523C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

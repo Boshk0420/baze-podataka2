@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BD979D01-E99B-12E9-4567-C01E8BC010DF" containerWithKeyObject="E181722D-8BA6-5EAC-5BD6-E71BB4842259" localFKIndex="B773710E-2E68-07C6-DBBC-0543432029E8" name="Takmicar_Korisnik_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>DC221F74-154D-97EE-FDA2-9CB46493D874</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<referredTableLongName>Korisnik</referredTableLongName>
+<arc>72CD3C7F-19F5-3B51-4B48-8316EF9497A5</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>70D1930E-D3ED-49E4-CCAF-0CDF38C5BADC</referredTableID>
+<keyObject>095FFE1A-30FC-4DC0-8876-45C8D200425C</keyObject>
+<referredKeyID>095FFE1A-30FC-4DC0-8876-45C8D200425C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Takmicar</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

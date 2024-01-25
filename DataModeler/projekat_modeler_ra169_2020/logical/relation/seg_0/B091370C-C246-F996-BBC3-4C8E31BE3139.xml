@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sudi na" directorySegmentName="seg_0" id="B091370C-C246-F996-BBC3-4C8E31BE3139">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 13:26:28 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2444ED9E-AFA0-39FE-F759-8780A3C86423</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>638BCE0B-E85C-D0EC-B884-07DFB9AD30ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

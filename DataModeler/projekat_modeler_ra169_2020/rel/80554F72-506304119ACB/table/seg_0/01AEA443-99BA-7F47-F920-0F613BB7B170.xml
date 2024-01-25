@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01AEA443-99BA-7F47-F920-0F613BB7B170" name="Rezultat">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>FF9EE524-5AB4-8379-6AD4-272ED85C67E3</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdRez" id="FC4432CE-6997-5EFB-0670-FCB830427D5B">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>226999CB-CA74-514C-CC78-941AE4525425</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rez" id="AE696273-751E-9F01-2642-5023CEF8CF01">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>E9BE5A7B-487A-985D-E4A1-9DDF1560B5D3</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ish" id="50910CDB-2FF6-D608-3919-419370867407">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>D0C00417-1114-ED7F-ECEB-48393055DFA5</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="je_na_Mec_IdMe" id="FF4A4978-AA8C-A763-C2EA-07CA280323C5">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>FC063303-F5DF-5DB2-240C-A0EB67D6DC69</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91013461-32A5-6C19-A0B1-DEB66083E3BC" referredColumn="B0BF5A8E-0349-54C9-8268-E3B696D27B85"/>
+</associations>
+</Column>
+<Column name="je_na_Mec_IdZl" id="EBDAC8F4-BAEB-7D28-5E43-6DE2250AAEE5">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>34EB96F3-A570-E556-179E-ECF32BFDE4F7</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91013461-32A5-6C19-A0B1-DEB66083E3BC" referredColumn="3143F55A-1494-EE64-20A5-0861D58761B4"/>
+</associations>
+</Column>
+<Column name="je_na_IdK" id="9BE98CF0-5E61-F2A6-5AD7-B45DADE4FA1F">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>9A7CDB0A-5612-DF29-ABAA-3ADDCA91000D</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91013461-32A5-6C19-A0B1-DEB66083E3BC" referredColumn="C3B76635-3F3B-8144-91D9-8DA953C8185E"/>
+</associations>
+</Column>
+<Column name="je_na_IdKat" id="9E9C1AD3-069C-F06C-2DD9-76AE8CE51D5F">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>50782E08-3EE7-5E32-CFAC-C134CB8B9D9D</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91013461-32A5-6C19-A0B1-DEB66083E3BC" referredColumn="8E316255-C0E1-CAA7-0D14-B5801EACEEC6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E27B138-7AF2-0DCB-46B7-185B8B279200" name="Rezultat_PK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>2D03E3BF-13D9-AAEB-BABE-133035E55171</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC4432CE-6997-5EFB-0670-FCB830427D5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D835218B-0E52-7BE0-23E4-075C58163574" name="Rezultat_je_na_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>0D0E0B63-03FB-3385-C804-0BF68484063F</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF4A4978-AA8C-A763-C2EA-07CA280323C5"/>
+<colUsage columnID="EBDAC8F4-BAEB-7D28-5E43-6DE2250AAEE5"/>
+<colUsage columnID="9BE98CF0-5E61-F2A6-5AD7-B45DADE4FA1F"/>
+<colUsage columnID="9E9C1AD3-069C-F06C-2DD9-76AE8CE51D5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

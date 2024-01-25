@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="58898512-7669-D054-3551-12AAF8BD8CCF" containerWithKeyObject="BC5BF3BD-6D06-9EA2-DC4C-CA5C64C422E7" localFKIndex="459C3087-EF36-C2E4-4019-10927FDEEA2C" name="prijava_Takmicar_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>070F53D5-3553-E51B-33D0-C6A69A757D95</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<referredTableLongName>Takmicar</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E181722D-8BA6-5EAC-5BD6-E71BB4842259</referredTableID>
+<keyObject>8D4A6563-D7A8-4E75-F86F-B913D3745CB7</keyObject>
+<referredKeyID>8D4A6563-D7A8-4E75-F86F-B913D3745CB7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

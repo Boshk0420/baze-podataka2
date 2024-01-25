@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="zakazuje se" directorySegmentName="seg_0" id="B4C325FE-E9FC-B1DB-1EA6-26E5FE236486">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:08:45 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<sourcePk>ED842AA4-A217-C6F5-BF89-F4D0A5C11067</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9ADBEF59-4A37-443F-437F-688D847F4218</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>402965C5-539F-B759-9D09-F262B111F938</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

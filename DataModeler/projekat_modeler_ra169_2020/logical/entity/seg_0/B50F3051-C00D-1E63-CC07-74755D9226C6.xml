@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B50F3051-C00D-1E63-CC07-74755D9226C6" name="je na">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:10:08 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdMe" id="9889AA92-56FF-3043-6713-6FDDD930C816">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:11:39 UTC</createdTime>
+<generatorID>B7D46A24-7753-10BD-5524-E2C4219FA55F</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<referedAttribute>0639D71C-5DC7-AB17-715C-79FC5E8A06E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdZl" id="61458639-B38A-DAF1-FB35-77554085EDF4">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:11:39 UTC</createdTime>
+<generatorID>B7D46A24-7753-10BD-5524-E2C4219FA55F</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<referedAttribute>165418AA-2161-9AA9-3948-7330881CE6C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdK" id="582A0E48-053A-B7D7-0303-4D1B689CCE5C">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:12:21 UTC</createdTime>
+<generatorID>E7912777-2BEF-D40A-F138-DA2D099F3FCE</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<referedAttribute>0A1A33A8-3858-642F-25A4-E2A013F929D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdKat" id="D99F3687-14FD-1339-B2FB-E8694BC6D3CE">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:44:54 UTC</createdTime>
+<generatorID>E7912777-2BEF-D40A-F138-DA2D099F3FCE</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<referedAttribute>6D7F2A79-9871-0FE6-A3BF-4A8A2785FBD7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8195755A-247B-516E-5449-25A8597A99B5" name="je na PK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:11:39 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9889AA92-56FF-3043-6713-6FDDD930C816</attributeRef>
+<attributeRef>61458639-B38A-DAF1-FB35-77554085EDF4</attributeRef>
+<attributeRef>582A0E48-053A-B7D7-0303-4D1B689CCE5C</attributeRef>
+<attributeRef>D99F3687-14FD-1339-B2FB-E8694BC6D3CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

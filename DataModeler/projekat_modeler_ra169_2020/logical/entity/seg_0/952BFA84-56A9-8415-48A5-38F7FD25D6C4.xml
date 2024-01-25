@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="952BFA84-56A9-8415-48A5-38F7FD25D6C4" name="prijava">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 13:55:15 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdK" id="0A1A33A8-3858-642F-25A4-E2A013F929D1">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 13:55:41 UTC</createdTime>
+<generatorID>070F53D5-3553-E51B-33D0-C6A69A757D95</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<referedAttribute>50761CC9-0DFF-905E-42A7-8A7D38150C5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdKat" id="6D7F2A79-9871-0FE6-A3BF-4A8A2785FBD7">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:44:54 UTC</createdTime>
+<generatorID>0289CC36-AF38-CD58-8F6A-221B74428B38</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<referedAttribute>252D3460-42D1-610E-3CAC-8064843C478E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8AFD3F09-8182-644E-EF6C-3BFE0B343B79" name="prijava PK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 13:55:41 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<engineerTo>
+<item key="80554F72-2AEB-7983-A762-506304119ACB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A1A33A8-3858-642F-25A4-E2A013F929D1</attributeRef>
+<attributeRef>6D7F2A79-9871-0FE6-A3BF-4A8A2785FBD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

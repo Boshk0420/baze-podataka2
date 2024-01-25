@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0F7325B4-4C88-A33D-DDAD-7E2522DD58FC" containerWithKeyObject="BC5BF3BD-6D06-9EA2-DC4C-CA5C64C422E7" localFKIndex="B6ABC959-E639-3A97-D617-0BB324DAFA89" name="prijava_Kategorija_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>0289CC36-AF38-CD58-8F6A-221B74428B38</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<referredTableLongName>Kategorija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F3FB418D-007B-32A6-E76C-8C8ECB35CE4B</referredTableID>
+<keyObject>683F3C04-81A2-6134-DB9E-A51D32B6A00A</keyObject>
+<referredKeyID>683F3C04-81A2-6134-DB9E-A51D32B6A00A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdKat</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

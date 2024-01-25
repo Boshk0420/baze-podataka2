@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C008083F-5F93-4DA8-1992-F392DA4D4717" name="Klub">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>811E65A6-094C-6ADD-B192-949A4B5E3D77</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdKl" id="CD276ED3-875B-892F-6AAC-01CDF135CDA7">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>ABAA5C6F-8CE9-D454-3BD5-A4A3843C1FC8</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazKl" id="8B09CE91-18F9-A6B2-63BB-BF7229B0AFFF">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>78E5FBD8-AF93-E4BC-561E-936DA8ED1636</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BorKl" id="BD08C025-3761-B8EB-3CB1-A89A795C5AC1">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>BD21D3E4-B8A4-5960-C9D8-2C2F220CA3FA</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Trener_IdK" id="81B0F32E-FEE2-DE94-7803-056452AE204B">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>7FF6E3FE-EF45-1F3D-51F5-BFB9A5C4A1B3</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE54EEF3-CFE6-C3C9-4067-BBF43229D922" referredColumn="E140A41D-AC61-05C3-6EEB-88668DA838A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B143305E-DE97-96BB-C66E-5B207F294ED1" name="Klub_PK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>D026999E-F65B-AA6E-3FE3-500A4D841399</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD276ED3-875B-892F-6AAC-01CDF135CDA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6246C285-9B0C-0008-316A-548D87C017BE" name="Klub__IDX">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0F6FBBE3-AED5-DF0D-EDAD-6B6E7B70BE14</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="81B0F32E-FEE2-DE94-7803-056452AE204B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D7CB8C5-DD33-0385-645A-088E3E1C6F43" name="Klub_Trener_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>0F6FBBE3-AED5-DF0D-EDAD-6B6E7B70BE14</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81B0F32E-FEE2-DE94-7803-056452AE204B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A382D149-7519-7E11-FBD1-BC7A511BE57E" name="Sudija">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>2444ED9E-AFA0-39FE-F759-8780A3C86423</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdK" id="BE038A76-6750-B6C5-9D84-7ED8688840B9">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>50761CC9-0DFF-905E-42A7-8A7D38150C5B</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AB0D163-116F-3626-9E99-418ED0E1CE4A" referredColumn="2FE25488-ECFF-D5F4-0562-B4C837D6329C"/>
+</associations>
+</Column>
+<Column name="SertS" id="ABCE61FA-F4B5-ACF6-F3F8-A223E0EAE545">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>300A94A5-EDA9-DF55-1F23-4AAD0190E842</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB1523A2-283D-4836-3D0E-484445454B06" name="Sudija_PK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>01ACDC47-F526-1669-F5DC-285A929E2AC8</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE038A76-6750-B6C5-9D84-7ED8688840B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9866962C-D18A-C755-2E4D-2C11C4C43C49" name="Sudija_Korisnik_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>06CF67DA-EF13-2AC8-7F1F-DC1CBBC21225</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE038A76-6750-B6C5-9D84-7ED8688840B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

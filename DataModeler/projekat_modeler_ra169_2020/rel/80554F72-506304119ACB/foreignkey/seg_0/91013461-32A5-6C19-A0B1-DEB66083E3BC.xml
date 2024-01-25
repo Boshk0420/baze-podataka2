@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="91013461-32A5-6C19-A0B1-DEB66083E3BC" containerWithKeyObject="01AEA443-99BA-7F47-F920-0F613BB7B170" localFKIndex="D835218B-0E52-7BE0-23E4-075C58163574" name="Rezultat_je_na_FK">
+<createdBy>mbosk</createdBy>
+<createdTime>2024-01-14 14:48:49 UTC</createdTime>
+<generatorID>0D0E0B63-03FB-3385-C804-0BF68484063F</generatorID>
+<ownerDesignName>projekat_modeler_ra169_2020</ownerDesignName>
+<referredTableLongName>je_na</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>64B7E086-FB62-287D-397B-EEE466F661F5</referredTableID>
+<keyObject>7B57A912-91A0-0846-1A6F-4762AA14576B</keyObject>
+<referredKeyID>7B57A912-91A0-0846-1A6F-4762AA14576B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Mec_IdMe,Mec_IdZl,prijava_IdK,prijava_IdKat</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
